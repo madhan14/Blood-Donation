@@ -8,3 +8,13 @@
 .bg-remove{
     background-color: transparent !important;
 }
+
+[for="female"], [for="male"], [for="third"], [for="no"], [for="yes"] {
+    cursor: pointer;
+}
+
+@media (max-width: 474px) {
+    .gender > .form-check-inline{
+        margin-right: 0;
+    }
+}
