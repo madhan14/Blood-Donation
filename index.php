@@ -62,7 +62,6 @@
 
         <?php include('includes/footer.php'); ?>
         <script>
-            console.log('<?php echo basename(__FILE__, ".php"); ?>')
             if('<?php echo basename(__FILE__, ".php"); ?>' == 'index'){
                 $('.page-title').text('Dashboard');    
             } else {

@@ -406,7 +406,8 @@
                                     <div class="page-title-right">
                                         <form class="d-flex">
                                             <div class="input-group">
-                                                <input type="text" class="form-control form-control-light" value="<?= date('d-m-Y H:i a'); ?>" id="dash-daterange">
+                                                <!-- <input type="text" class="form-control form-control-light" value="<?= date('d-m-Y H:i a'); ?>" id="dash-daterange"> -->
+                                                <input type="text" class="form-control form-control-light" value="" id="dash-daterange">
                                                 <span class="input-group-text bg-primary border-primary text-white">
                                                     <i class="mdi mdi-calendar-range font-13"></i>
                                                 </span>
