@@ -13,6 +13,18 @@
     cursor: pointer;
 }
 
+.inline-right{
+    display: inline;
+    float: right;
+}
+
+.ml-2{
+    margin-left: 1.5rem!important;
+}
+.ml--2{
+    margin-left: -1.5rem!important;
+}
+
 @media (max-width: 474px) {
     .gender > .form-check-inline{
         margin-right: 0;
